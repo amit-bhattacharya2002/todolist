@@ -49,7 +49,7 @@
     
 }
 .textstodo{
-    min-width: 555px;
+    width: 555px;
     border: solid 1px black;
     border-radius: 5px;
     padding: 5px;
