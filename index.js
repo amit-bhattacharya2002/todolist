@@ -23,7 +23,6 @@ addToDo.addEventListener('click', function(){
         con.appendChild(del);
         toDoCont.insertBefore(con, toDoCont.firstChild);
         input.value = "";
-        num++;
         done.addEventListener('click', function(){
             if(para.style.textDecoration === "line-through"){
                 para.style.textDecoration = "none";
